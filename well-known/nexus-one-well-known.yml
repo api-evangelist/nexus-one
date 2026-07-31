@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://nx1.io/.well-known/ and https://www.nx1.io/.well-known/
+host: nx1.io
+entries:
+- path: /.well-known/security.txt
+  status: 200
+  content_type: text/plain
+  file: nexus-one-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  security.txt is served (RFC 9116); it names a security contact and asserts
+  SOC 2 / ISO 27001 / HITRUST compliance. No OIDC/OAuth discovery or api-catalog
+  documents are published — NexusOne exposes no public, self-service API surface.

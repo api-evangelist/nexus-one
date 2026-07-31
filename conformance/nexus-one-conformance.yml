@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  https://nx1.io/.well-known/security.txt and https://nx1.io/llms.txt
+subject: NexusOne data-estate control plane
+standards:
+- id: soc2
+  name: SOC 2
+  conforms: true
+  evidence: security.txt asserts "NexusOne is SOC 2, ISO 27001, and HITRUST compliant."
+- id: iso27001
+  name: ISO/IEC 27001
+  conforms: true
+  evidence: security.txt asserts "NexusOne is SOC 2, ISO 27001, and HITRUST compliant."
+- id: hitrust
+  name: HITRUST CSF
+  conforms: true
+  evidence: security.txt asserts "NexusOne is SOC 2, ISO 27001, and HITRUST compliant."
+- id: oauth2
+  name: OAuth 2.0 (identity federation)
+  conforms: partial
+  evidence: >-
+    llms.txt lists OAuth among federated identity sources aggregated into the unified
+    identity layer (with Active Directory, Okta, LDAP, SAML); NexusOne consumes rather
+    than publishes an OAuth authorization server (/.well-known/oauth-authorization-server = 404).
+- id: iceberg
+  name: Apache Iceberg table format
+  conforms: true
+  evidence: >-
+    llms.txt cites "Zero-configuration Iceberg tables" and Nexus Cognitive publishes an
+    open-source Iceberg migration utility (github.com/nexuscognitive/nx1-data-migrator).
+- id: mcp
+  name: Model Context Protocol
+  conforms: partial
+  evidence: llms.txt cites "MCP endpoint exposure for agent discovery" (tenant-scoped, undocumented publicly).
+notes: >-
+  Conformance is asserted by the vendor (security.txt + llms.txt), not independently
+  verified here. No public OpenAPI exists to test wire-level standards (rfc9457,
+  pagination, json:api, etc.).

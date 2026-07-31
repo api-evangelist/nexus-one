@@ -1,0 +1,11 @@
+# security.txt for NexusOne
+# Per RFC 9116 — https://www.rfc-editor.org/rfc/rfc9116
+# This file should be served at https://www.nx1.io/.well-known/security.txt
+
+Contact: mailto:security@nexuscognitive.com
+Expires: 2027-03-12T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.nx1.io/.well-known/security.txt
+
+# NexusOne is SOC 2, ISO 27001, and HITRUST compliant.
+# For compliance inquiries: security@nexuscognitive.com

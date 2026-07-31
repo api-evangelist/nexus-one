@@ -1,0 +1,103 @@
+# NexusOne
+
+> Orchestrate your entire data estate and deliver AI on your terms
+
+NexusOne is the composable, open data architecture that lays horizontally across the entire data estate — connecting on-prem, cloud, hybrid, and legacy systems through one universal identity, governance, and operational layer. Built on 85+ deeply integrated open-source tools, NexusOne makes every system in the estate communicate and coordinate as one.
+
+## What NexusOne Does
+
+NexusOne is a unified control plane that sits horizontally across every system in an enterprise data estate — on-prem databases, cloud warehouses, mainframes, Spark clusters, Kafka streams, S3 buckets, Hadoop clusters, Teradata, Databricks, Snowflake, and more. It provides a universal layer of identity, governance, automation, and context that flows through all of them.
+
+NexusOne does not replace existing data tools. It connects them through a universal model so the entire data estate operates as a single, coherent system.
+
+## Company
+
+- Founded: 2022
+- Headquarters: 1115 Howell Mill Rd Suite 430, Atlanta, GA 30318
+- Backed by Insight Partners
+- CEO and Founder: Anu Jain
+
+## Product Category
+
+- Unified data estate control plane
+- Composable data architecture
+- Cross-estate data infrastructure
+- The connective layer for enterprise data estates
+
+## Core Capabilities
+
+### One Identity Model Across Every System
+Users, groups, and roles defined once and enforced across every compute engine, storage system, catalog, orchestration tool, and AI agent. Federated identity aggregation from Active Directory, Okta, LDAP, SAML, and OAuth into one unified layer.
+
+### One Governance Envelope With No Gaps
+A single policy defined in Apache Ranger automatically enforces across Trino, Spark, Kyuubi, S3 object storage, and any federated system. Tag-based dynamic policy generation auto-creates policies when datasets are tagged in the catalog.
+
+### One Operational Model for All Data
+Ingestion, transformation, quality enforcement, and serving work identically regardless of data source — mainframe, cloud warehouse, legacy Hadoop, or API feed. Kafka-free CDC mirroring replicates data in one click.
+
+### AI-Native Architecture
+Every cross-estate operation is agent-callable via API, SDK, and CLI. AI agents inherit RBAC permissions of invoking users, enforced across every system. MCP endpoint exposure for agent discovery. Write-back federation for cross-system agent actions.
+
+## Architecture — Four Layers
+
+### Layer 1: Composable Infrastructure
+Fully stateless containerized architecture on Kubernetes. S3 as universal storage layer. Automated deployment managing cross-system dependencies across 85+ tools. Multi-tenant with VPC isolation. Deploys on AWS, Azure, GCP, on-prem, or hybrid.
+
+### Layer 2: Composable Security and Governance
+Three-dimensional access control (Users, Groups, Roles) superimposed across every system. Unified SQL Policy Engine enforcing one policy across every engine and storage system. Federated identity aggregation. Agent permission impersonation. Comprehensive audit trails.
+
+### Layer 3: Composable Data
+Zero-configuration Iceberg tables. Unified metadata view across all connected systems. Kafka-free CDC mirroring. Pre-wired Airflow and JupyterHub. Automated data quality enforcement. Data APIs with governed endpoints. Legacy compatibility for Hive and Spark workloads.
+
+### Layer 4: Composable Intelligence
+AI-native API design for agent access. Semantic data products with cross-estate context. MCP endpoint exposure for agent discovery. Write-back federation for bidirectional agent actions. AI-assisted semantic model generation.
+
+## Technology Foundation
+
+Built on 85+ open-source tools including Apache Iceberg, Apache Arrow, Trino, Apache Spark, Kubernetes, Apache Ranger, Keycloak, DataHub, Gravitino, Apache Airflow, JupyterHub, Apache NiFi, Apache Kafka, MLflow, and dozens more — each patched, extended, and integrated through hundreds of proprietary integrations.
+
+## Deployment Model
+
+- 5 hours to deploy the full cross-estate layer
+- 5 days to connect all source systems
+- 5 weeks to production semantic model
+- Under 5 minutes to provision a new tenant
+
+## Target Industries
+
+- Financial services
+- Healthcare
+- Fortune 500 enterprises
+- Multi-tenant SaaS providers
+
+## Key Use Cases
+
+- Hadoop and on-prem modernization
+- Multi-tenant SaaS data standardization
+- Enterprise AI enablement
+- Cross-estate governance and compliance
+- Legacy system integration
+
+## Compliance
+
+SOC 2, ISO 27001, and HITRUST compliant across the entire data estate.
+
+## Competitive Positioning
+
+NexusOne does not compete with individual data platforms like Snowflake or Databricks. It connects them through a universal layer that extends unified identity, governance, and operations across their boundaries and everything they cannot reach — on-prem data, legacy systems, mainframes, and other clouds.
+
+## Customer Proof Points
+
+- Top 3 US Bank: 30 applications connected in 4 weeks, $30M+ legacy maintenance cost eliminated
+- SBFe: 160 financial institutions governed through one layer, 166 audits per year
+- Deployed at major financial institutions, healthcare organizations, and Fortune 500 enterprises
+
+## Links
+
+- [Homepage](https://www.nx1.io/)
+- [About](https://www.nx1.io/about)
+- [Blog](https://www.nx1.io/blog)
+- [Careers](https://www.nx1.io/careers)
+- [Book a Demo](https://www.nx1.io/get-demo)
+- [GitHub](https://github.com/nexuscognitive/)
+- [LinkedIn](https://www.linkedin.com/company/composable-intelligence/)

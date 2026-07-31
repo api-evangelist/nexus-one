@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  https://nx1.io/.well-known/security.txt and https://nx1.io/llms.txt
+name: NexusOne Trust & Compliance
+trust_center_url: null
+contact: mailto:security@nexuscognitive.com
+certifications:
+- name: SOC 2
+  status: compliant
+  evidence: https://nx1.io/.well-known/security.txt
+- name: ISO 27001
+  status: compliant
+  evidence: https://nx1.io/.well-known/security.txt
+- name: HITRUST
+  status: compliant
+  evidence: https://nx1.io/.well-known/security.txt
+security_posture:
+- Multi-tenant architecture with VPC isolation
+- Unified SQL policy engine enforcing one governance policy across every engine and store
+- Three-dimensional access control (Users, Groups, Roles) superimposed across systems
+- Comprehensive audit trails across the data estate
+- Federated identity aggregation from Active Directory, Okta, LDAP, SAML, and OAuth
+notes: >-
+  No dedicated public trust-center portal was found (/security, /compliance, /trust
+  return 404). Certifications are asserted in the RFC 9116 security.txt and the
+  published llms.txt; compliance inquiries route to security@nexuscognitive.com.

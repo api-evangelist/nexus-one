@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  GitHub organization https://github.com/nexuscognitive (public repos);
+  registry probes of PyPI/npm returned 404 (not published to public registries)
+name: NexusOne
+publisher: Nexus Cognitive
+registries_checked:
+- registry: PyPI
+  result: not-found
+- registry: npm
+  result: not-found
+packages:
+- name: nx1-sdk
+  language: Python
+  official: true
+  kind: sdk
+  license: MIT
+  repository: https://github.com/nexuscognitive/nx1-sdk
+  registry: null
+  description: First-party Python SDK for the NexusOne control plane (source-distributed via GitHub).
+- name: NexusOne-Ingestion-SDK
+  language: Python
+  official: true
+  kind: sdk
+  repository: https://github.com/nexuscognitive/NexusOne-Ingestion-SDK
+  registry: null
+  description: First-party Python ingestion SDK for loading data into NexusOne.
+- name: nx1-data-migrator
+  language: Python
+  official: true
+  kind: tool
+  repository: https://github.com/nexuscognitive/nx1-data-migrator
+  registry: null
+  description: Open-source Iceberg migration utility published by Nexus Cognitive.
+notes: >-
+  NexusOne's client libraries are distributed as source from the nexuscognitive
+  GitHub org rather than through public package registries; no PyPI/npm/Maven
+  artifacts were found. The llms.txt states every cross-estate operation is
+  agent-callable via API, SDK, and CLI, but the surface is not publicly documented.

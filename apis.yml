@@ -1,7 +1,26 @@
 aid: nexus-one
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexus-one.png
 name: Nexus One
-description: Nexus One is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NexusOne, by Nexus Cognitive, is a composable open data architecture that lays
+  horizontally across an entire enterprise data estate — connecting on-prem, cloud,
+  hybrid, and legacy systems through one universal identity, governance, and
+  operational control plane. Built on 85+ deeply integrated open-source tools
+  (Iceberg, Trino, Spark, Ranger, Keycloak, DataHub, Gravitino, Airflow, and more),
+  it positions itself as "The Data Layer for AI," making every system operate as a
+  single coherent, agent-callable system without data migration or vendor lock-in.
+  Founded in 2022, headquartered in Atlanta, GA, and backed by Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Infrastructure
+- Data Governance
+- Artificial Intelligence
+- Data Platform
+- Control Plane
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,39 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nexuscognitive.com/
+  url: https://www.nx1.io/
+- type: DeveloperPortal
+  url: https://github.com/nexuscognitive
+- type: GitHubOrganization
+  url: https://github.com/nexuscognitive
+- type: Blog
+  url: https://www.nx1.io/blog
+- type: LLMsTxt
+  url: llms/nexus-one-llms.txt
+- type: Packages
+  url: packages/nexus-one-packages.yml
+- type: SDKs
+  url: packages/nexus-one-packages.yml
+- type: MCPServer
+  url: mcp/nexus-one-mcp.yml
+- type: SecurityTxt
+  url: well-known/nexus-one-security.txt
+- type: WellKnown
+  url: well-known/nexus-one-well-known.yml
+- type: Security
+  url: security/nexus-one-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/nexus-one-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/nexus-one-domain-security.yml
+- type: TrustCenter
+  url: security/nexus-one-trust-center.yml
+- type: Compliance
+  url: security/nexus-one-trust-center.yml
+- type: Conformance
+  url: conformance/nexus-one-conformance.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1
