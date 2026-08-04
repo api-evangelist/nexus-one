@@ -1,6 +1,7 @@
 generated: '2026-07-20'
 method: searched
-status: mentioned
+status: announced
+status_raw: mentioned
 source: >-
   https://nx1.io/llms.txt and https://nx1.io/ — NexusOne documents "MCP endpoint
   exposure for agent discovery" as a platform capability
