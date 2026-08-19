@@ -2,24 +2,26 @@ generated: '2026-07-20'
 method: searched
 status: announced
 status_raw: mentioned
-source: >-
-  https://nx1.io/llms.txt and https://nx1.io/ — NexusOne documents "MCP endpoint
-  exposure for agent discovery" as a platform capability
+source: https://nx1.io/llms.txt and https://nx1.io/ — NexusOne documents "MCP endpoint exposure for agent
+  discovery" as a platform capability
 name: NexusOne MCP
 hosted: false
 remote_url: null
-summary: >-
-  NexusOne describes MCP (Model Context Protocol) endpoint exposure as part of its
-  "Composable Intelligence" layer, so AI agents can discover and act on governed data
-  products across the estate. The MCP endpoint is provisioned per-tenant inside a
-  customer deployment; no public, hosted, or documented MCP server URL is published.
+summary: NexusOne describes MCP (Model Context Protocol) endpoint exposure as part of its "Composable
+  Intelligence" layer, so AI agents can discover and act on governed data products across the estate.
+  The MCP endpoint is provisioned per-tenant inside a customer deployment; no public, hosted, or documented
+  MCP server URL is published.
 capabilities_cited:
 - MCP endpoint exposure for agent discovery
 - Agent-callable cross-estate operations via API, SDK, and CLI
 - Agents inherit the RBAC permissions of the invoking user, enforced across every system
 - Write-back federation for bidirectional agent actions
 tools: []
-notes: >-
-  No tool list could be derived — there is no public OpenAPI to ground candidate
-  tools in. Status is "mentioned": the capability is asserted by the vendor but the
-  endpoint is tenant-scoped and undocumented publicly.
+notes: 'No tool list could be derived — there is no public OpenAPI to ground candidate tools in. Status
+  is "mentioned": the capability is asserted by the vendor but the endpoint is tenant-scoped and undocumented
+  publicly.'
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
