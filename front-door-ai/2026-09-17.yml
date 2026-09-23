@@ -1,0 +1,29 @@
+# Front Door AI Index — nexus-one — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nexus-one
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.nx1.io
+  final_host: www.nx1.io
+  ownership: own
+  owner: nexus-one
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 53
+  host_score: 53
+  density: 24.07
+  words: 2202
+  tiers:
+    agentic: 6
+    core: 47
+    model: 0
+  ambiguous: 16
+  top_terms:
+    AI: 42
+    agent: 16
+    AI agent: 5
+    ML: 5
+    MCP: 1
